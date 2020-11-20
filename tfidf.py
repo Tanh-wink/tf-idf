@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 data_dir = "../data/"
 subwayqq_path = data_dir + "documents.csv"
 tfidf_file_dir = data_dir + "tfidf/"
-stopwords_file = data_dir + 'punct.txt'
+stopwords_file = data_dir + 'stopwords.txt'
 
 
 class TfIdf_Model:
